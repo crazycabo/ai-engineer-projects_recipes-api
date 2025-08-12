@@ -17,7 +17,7 @@ load_dotenv()
 # Initialize OpenAI LLM
 llm = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    model="gpt-5",
+    model="gpt-4.1",
     temperature=0.1
 )
 
